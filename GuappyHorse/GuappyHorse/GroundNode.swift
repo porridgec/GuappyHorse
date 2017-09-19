@@ -16,6 +16,11 @@ class GroundNode: SKSpriteNode {
     init() {
         super.init(texture: GroundNode.groundTexture, color: UIColor.clear, size: GroundNode.groundTexture.size())
         GroundNode.groundTexture.filteringMode = .nearest
+        
+        physicsBody = SKPhysicsBody.init(rectangleOf: CGSize.init(width: UIScreen.main.bounds.size.width, height: size.height))
+        physicsBody?.isDynamic = false
+        physicsBody?.categoryBitMask = GameScene.PhysicsCategory.world
+        
         let moveAction = SKAction.moveBy(x: -(GroundNode.groundTexture.size().width * 2), y: 0, duration: TimeInterval(0.02 * GroundNode.groundTexture.size().width * 2))
         let resetAction = SKAction.moveBy(x: GroundNode.groundTexture.size().width * 2, y: 0, duration: 0)
         let groupedAction = SKAction.repeatForever(SKAction.sequence([moveAction, resetAction]))

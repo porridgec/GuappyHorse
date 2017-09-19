@@ -21,7 +21,15 @@ class BirdNode: SKSpriteNode {
         textures.append(textureFlap)
         textures.forEach{ $0.filteringMode = SKTextureFilteringMode.nearest }
         setScale(2)
-        run(SKAction.repeatForever(SKAction.animate(with: textures, timePerFrame: 0.2)))
+        
+        physicsBody = SKPhysicsBody.init(circleOfRadius: size.height / 2)
+        physicsBody?.isDynamic = true
+        physicsBody?.allowsRotation = true
+        physicsBody?.categoryBitMask = GameScene.PhysicsCategory.bird
+        physicsBody?.contactTestBitMask = GameScene.PhysicsCategory.pipe | GameScene.PhysicsCategory.world
+        
+        run(SKAction.repeatForever(SKAction.animate(with: textures, timePerFrame: 0.1)))
+        
     }
     
     required init?(coder aDecoder: NSCoder) {

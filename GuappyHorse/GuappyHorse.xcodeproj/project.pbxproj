@@ -10,6 +10,7 @@
 		A9278ACD1E8FAFDB002931CF /* SkylineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9278ACC1E8FAFDB002931CF /* SkylineNode.swift */; };
 		A93839591E8F96A400A3C047 /* BirdNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93839581E8F96A400A3C047 /* BirdNode.swift */; };
 		A938395B1E8FA97B00A3C047 /* GroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A938395A1E8FA97B00A3C047 /* GroundNode.swift */; };
+		A9B509751F70F19100D922B5 /* PipeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B509741F70F19100D922B5 /* PipeNode.swift */; };
 		A9EAAB861E8F5DBF001E467D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EAAB851E8F5DBF001E467D /* AppDelegate.swift */; };
 		A9EAAB8C1E8F5DBF001E467D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EAAB8B1E8F5DBF001E467D /* GameScene.swift */; };
 		A9EAAB8E1E8F5DBF001E467D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EAAB8D1E8F5DBF001E467D /* GameViewController.swift */; };
@@ -22,6 +23,7 @@
 		A9278ACC1E8FAFDB002931CF /* SkylineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkylineNode.swift; sourceTree = "<group>"; };
 		A93839581E8F96A400A3C047 /* BirdNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdNode.swift; sourceTree = "<group>"; };
 		A938395A1E8FA97B00A3C047 /* GroundNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroundNode.swift; sourceTree = "<group>"; };
+		A9B509741F70F19100D922B5 /* PipeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PipeNode.swift; sourceTree = "<group>"; };
 		A9EAAB821E8F5DBF001E467D /* GuappyHorse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuappyHorse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EAAB851E8F5DBF001E467D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9EAAB8B1E8F5DBF001E467D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				A93839581E8F96A400A3C047 /* BirdNode.swift */,
 				A938395A1E8FA97B00A3C047 /* GroundNode.swift */,
 				A9278ACC1E8FAFDB002931CF /* SkylineNode.swift */,
+				A9B509741F70F19100D922B5 /* PipeNode.swift */,
 			);
 			path = GuappyHorse;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				A93839591E8F96A400A3C047 /* BirdNode.swift in Sources */,
 				A9278ACD1E8FAFDB002931CF /* SkylineNode.swift in Sources */,
 				A9EAAB8C1E8F5DBF001E467D /* GameScene.swift in Sources */,
+				A9B509751F70F19100D922B5 /* PipeNode.swift in Sources */,
 				A9EAAB8E1E8F5DBF001E467D /* GameViewController.swift in Sources */,
 				A938395B1E8FA97B00A3C047 /* GroundNode.swift in Sources */,
 				A9EAAB861E8F5DBF001E467D /* AppDelegate.swift in Sources */,
